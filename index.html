@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">     
+      <div class="score-box">
+        <ul class="score-box1">
+          <li>ROCK</li>        
+          <li>PAPER</li>
+          <li>SCISSORS</li>
+        </ul>
+
+        <div class="white-box">
+          <div class="box">
+            COMPUTER <br />
+            SCORE
+            <br />
+            <span class="computer-zero">0</span>
+          </div>
+
+          <div class="box">
+            YOUR <br />
+            SCORE
+            <br />
+            <span class="human-zero">0</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="icons">
+        <div class="rock-box" id="rockIcon">
+          <p class="rock-para">YOU PICKED</p>
+          <img src="./rock-removebg-preview.png" class="rock image" />
+        </div>
+        <div class="line"></div>          
+        <div class="paper-box" id="paperIcon">
+          <p class="paper-para">YOU PICKED</p>
+          <img src="./paper-removebg-preview.png" class="image" />
+        </div>
+        <div class="line-1"></div>
+        <p class="scissor-para">YOU PICKED</p>
+        <div class="scissor-box" id="scissorIcon">
+          <img src="./scissor-removebg-preview.png" class="image" />
+        </div>
+        <div class="play">    
+          <!-- <button class="play-again" style="display: none"></button> -->
+        </div>
+        <div class="lost">
+          <!-- <button class="lost-button" style="display: none"></button>    -->
+        </div>
+        <div class="tie">
+          <!-- <button class="replay-button" style="display: none;"></button> -->
+        </div>
+        <div class="line-2"></div>
+        <div class="winner"></div>
+
+        <div class="for-user"><p class="user-win">YOU WIN<br /><span class="against-pc">AGAINST PC</span></p><button class="play-again">PLAY AGAIN</button></div>
+        <div class="for-computer"><p class="win-computer">YOU LOST<br /><span class="against-pc">AGAINST PC</span></p><button class="play-again">PLAY AGAIN</button></div>
+        <div class="for-tie"><p class="tie-up">TIE UP<br /></p><button class="play-again">REPLAY</button></div>
+        
+      </div>
+      
+      <div class="computer-win"></div>
+      <div class="computer-choice"></div>
+
+      <div class="Rules-box">
+        <div class="cross"><p class="close">X</p></div>
+        <h3>Game Rules</h3>
+        <ul class="for-para-list">
+          <li class="para">
+            <p>
+              Rock beats scissors, scissors beat <br />
+              paper, and paper beats rock.
+            </p>
+          </li>
+          <li class="para">
+            <p>
+              Agree ahead of time whether you’ll<br />
+              count off “rock, paper, scissors,<br />
+              shoot” or just “rock, paper, scissors.”
+            </p>
+          </li>
+          <li class="para">
+            <p>
+              Use rock, paper, scissors to settle<br />
+              minor decisions or simply play to<br />
+              pass the time.
+            </p>    
+          </li>
+          <li class="para">
+            <p>
+              If both players lay down the same<br />
+              hand, each player lays down another<br />
+              hand.
+            </p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="for-button">
+        <button class="rulesButton">RULES</button>
+      </div>
+      <div>
+        <button class="nextbutton">Next</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
